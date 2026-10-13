@@ -3,7 +3,7 @@
 ## 1. cPanel Git Version Control
 
 1. cPanel'e giriş yapın ve "Git Version Control" bölümünü açın
-2. "Create" → Repository URL: `https://github.com/ulasbudak/iuc-kampus.git`, Branch: `main`, Path: `public_html` (veya tercih ettiğiniz klasör)
+2. "Create" → Repository URL: `https://github.com/ulasbudak/iuc-campus-platform.git`, Branch: `main`, Path: `public_html` (veya tercih ettiğiniz klasör)
 3. `.cpanel.yml` dosyası otomatik olarak deployment adımlarını çalıştırır: server dosyalarını `public_html/server/` içine kopyalar, `npm install` çalıştırır, veritabanını oluşturur ve frontend build dosyalarını kopyalar.
 
 ## 2. Frontend build
